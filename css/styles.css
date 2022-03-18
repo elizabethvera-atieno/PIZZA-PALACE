@@ -1,4 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container-fluid{
     height: 600px;
     background-color:rgb(202, 140, 26) ;
+}
+.row{
+    height: 500px;
+}
+
+#img1{
+    width:80%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+h1{
+    font-size: 2.5cm;
+    padding-top: 170px;
+    color:rgb(134, 48, 48);
+    font-weight: bolder;
+    font-family:fantasy;
+}
+.slogan{
+    font-family:fantasy;
+    color: darkred;  
 }
