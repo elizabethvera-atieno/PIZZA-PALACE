@@ -30,3 +30,17 @@ h1{
 #img2{
     width:20%;
 }
+.aboutUs{
+    background-image:url("../images/ivan-torres-MQUqbmszGGM-unsplash.jpg") ;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#container1{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    
+}
