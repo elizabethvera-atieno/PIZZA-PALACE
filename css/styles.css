@@ -1,85 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container-fluid{
-    height: 600px;
-    background-color:rgb(202, 140, 26) ;
-}
-.row{
-    height: 500px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#img1{
-    width:80%;
-    padding-top: 100px;
-    padding-left: 100px;
+.container-fluid {
+  height: 600px;
+  background-color: rgb(202, 140, 26);
 }
-h1{
-    font-size: 2.5cm;
-    padding-top: 170px;
-    color:rgb(134, 48, 48);
-    font-weight: bolder;
-    font-family:fantasy;
-}
-.slogan{
-    font-family:fantasy;
-    color: darkred;  
-}
-#img2{
-    width:20%;
-}
-.aboutUs{
-    background-image:url("../images/ivan-torres-MQUqbmszGGM-unsplash.jpg") ;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-}
-#container1{
-    /* background-color: aqua; */
-    height: 400px;
-    width: 500px;
-    text-align: center;
-    justify-content: center;
-    color: whitesmoke;
-    font-family: fantasy;
-    font-weight: bolder;
 
+.row {
+  height: 500px;
 }
-#img3{
-    width: 10%;
+
+#img1 {
+  width: 80%;
+  padding-top: 100px;
+  padding-left: 100px;
 }
-#img4{
-    width: 20%;
+
+h1 {
+  font-size: 2.5cm;
+  padding-top: 170px;
+  color: rgb(134, 48, 48);
+  font-weight: bolder;
+  font-family: fantasy;
 }
-.flavors{
-    background-color:rgb(202, 140, 26) 
+
+.slogan {
+  font-family: fantasy;
+  color: darkred;
 }
-#container2{
-    /* background-color: aqua; */
-    height: 11cm;
+
+#img2 {
+  width: 20%;
 }
-#container2 h2{
-    font-family: fantasy;
-    font-weight: bolder;
-    color: whitesmoke;   
+
+.aboutUs {
+  background-image: url("../images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
 }
-.order{
-    background-colo?r:rgb(202, 140, 26);
+
+#container1 {
+  /* background-color: aqua; */
+  height: 400px;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+#img3 {
+  width: 10%;
+}
+
+#img4 {
+  width: 20%;
+}
+
+.flavors {
+  background-color: rgb(202, 140, 26);
+}
+
+#container2 {
+  /* background-color: aqua; */
+  height: 11cm;
+}
+
+#container2 h2 {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.order {
+  background-color:rgb(202, 140, 26);
+}
+
+#container3 {
+  background-color: rgb(202, 140, 26);
+  height: 500px;
+  width: 3000px;
+}
+
+#container3 h2 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+#container3 h3 {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
 }
 
 #container3{
-    background-color:rgb(202, 140, 26);
-    height: 400px;
-    width: 3000px;
-    
-}
-#container3 h2{
-    text-align: center;
     font-family: fantasy;
     font-weight: bolder;
-    color: whitesmoke;
+}
+
+#form{
+    font-family: fantasy;
+    font-weight: bolder;  
+}
+
+.proceed{
+  background-color: chocolate;
+  width: 2.5cm;
+  height: 0.8cm;
+  color: whitesmoke;
+}
+
+.btn{
+    background-color: chocolate;
+    width: 2.5cm;
+    height: 0.8cm;
+    color: rgb(10, 10, 10) 
+}
+
+.options{
+    display:none;
 }
