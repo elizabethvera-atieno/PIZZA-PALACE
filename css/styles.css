@@ -39,8 +39,16 @@ h1{
     object-fit: cover;
 }
 #container1{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 400px;
     width: 500px;
-    
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-weight: bolder;
+
+}
+#img3{
+    width: 10%;
 }
