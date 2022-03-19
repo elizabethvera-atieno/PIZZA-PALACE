@@ -97,9 +97,52 @@
       <div class="container" id="container3">
         <h2>...MAKE YOUR ORDER</h2>
         <div class="row">
-          <div class="col">
-            
-          </div>
+            <div class="col col-lg-6 col-md-6 col-sm-12" class="shadow-lg p-3 mb-5 bg-body rounded">
+              <h3>ORDER HERE</h3>
+              <form id="form">
+                <label for="select">SELECT FLAVOR</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+                  <!-- <option selected value="choose">Choose your flavor</option> -->
+                  <option value="Chicken Tikka">Chicken Tikka</option>
+                  <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                  <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                  <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                  <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                  <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                </select>
+                <br>
+                <br>
+                <label for="pizza size">SELECT PIZZA SIZE</label>
+                <select name=pizza-size id="size">
+                  <option value="0">Select size here</option>
+                  <option value="small">Small---sh.600</option>
+                  <option value="saab">Medium---sh.900</option>
+                  <option value="mercedes">Large---sh.1200</option>
+                </select>
+                <br>
+                <br>
+                <label for="crust">SELECT CRUST</label>
+                <select name=pizza-crust id="crust">
+                  <option  value="0">Select your preferred crust</option>
+                  <option value="stuffed">Stuffed---sh200</option>
+                  <option value="crispy">Crispy---sh.250</option>
+                  <option value="gluten-free">Gluten-free---sh230</option>
+                </select>
+                <br>
+                <br>
+                <label for="toppings">SELECT TOPPINGS AT sh.70 EACH</label><br>
+                <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                <label for="pepperoni"> Pepperoni</label><br>
+                <input type="checkbox" id="mushroom" name="mushroom" value="mushroom">
+                <label for="mushroom"> Mushroom</label><br>
+                <input type="checkbox" id="bacon" name="bacon" value="bacon">
+                <label for="bacon"> Bacon</label><br> <br>
+                <button type="submit" class="proceed">PROCEED </button>
+              </form>
+            </div>
+            <div class="col col-lg-6 col-md-6 col-sm-12" class="shadow-lg p-3 mb-5 bg-body rounded">
+
+            </div>
         </div>
       </div>
     </div>
