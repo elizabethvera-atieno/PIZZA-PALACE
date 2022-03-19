@@ -13,7 +13,7 @@
 
 #img1{
     width:80%;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 100px;
 }
 h1{
@@ -51,4 +51,7 @@ h1{
 }
 #img3{
     width: 10%;
+}
+#img4{
+    width: 20%;
 }
