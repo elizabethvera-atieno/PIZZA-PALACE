@@ -59,7 +59,11 @@ h1{
     background-color:rgb(202, 140, 26) 
 }
 #container2{
-    background-color: aqua;
-    height: 12.5cm;
+    /* background-color: aqua; */
+    height: 11cm;
 }
-
+#container2 h2{
+    font-family: fantasy;
+    font-weight: bolder;
+    color: whitesmoke;   
+}
