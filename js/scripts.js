@@ -11,7 +11,7 @@ function Pizza(flavor,size,crust,topping, total){
 $(document).ready(function(){
     $("form#form").submit(function(event){
         event.preventDefault();
-        $("button.proceed").click(function(event){
+        $("button.proceed").click(function(){
             let pflavor = $("#flavor option:selected").val();
             let psize = $("#size option:selected").val();
             let pcrust = $("#crust option:selected").val();
@@ -25,15 +25,15 @@ $(document).ready(function(){
                 break;
                 case "large":
                    sizePrice = 1200;
-                   console.log(sizePrice);
+                //    console.log(sizePrice);
                  break;
                  case "medium":
                     sizePrice = 900;
-                   console.log(sizePrice);
+                //    console.log(sizePrice);
                  break;
                  case "small":
                     sizePrice = 600;
-                   console.log(sizePrice);
+                //    console.log(sizePrice);
                  default:
                    console.log("error"); 
             };
@@ -41,26 +41,31 @@ $(document).ready(function(){
                 case "0":
                     crustPrice = 0;
                 break;
-                case "Crispy":
+                case "crispy":
                     crustPrice= 250;
-                    console.log(crustPrice);
+                    // console.log(crustPrice);
                 break;
-                case "Stuffed":
+                case "stuffed":
                     crustPrice = 200;
                 break;
-                case "Gluten-free":
+                case "gluten-free":
                     crustPrice = 230;
                 break;
                 default:
                   console.log("No price"); 
             };
             let toppingPrice = ptopping.length*70;
-            console.log("toppins price" + toppingPrice);
+            console.log("toppings price" + toppingPrice);
             if((psize === "0" )|| (pcrust ==="0")){
+                $("div#options").hide();
               return  alert("Ensure you have selected both crust and size!!")
-            };else{
-                $
-            }
+            }else{
+                $(".proceed").hide();
+                $("div#options").fadeIn();
+                // $("#information").hide();
+            };
+            let total = sizePrice + crustPrice + toppingPrice
+            console.log(total)
         });
     });
 });
