@@ -39,7 +39,7 @@
  ## License
  MIT License
 ## Live link
-* DELANI STUDIO - [PIZZA PALACE](https://elizabethvera-atieno.github.io/Delani-Studio/)
+* DELANI STUDIO - [PIZZA PALACE](https://elizabethvera-atieno.github.io/PIZZA-PALACE/)
 
 ## Authors Info)
  * Github - [elizabethvera-atieno](https://github.com/elizabethvera-atieno)
