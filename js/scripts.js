@@ -67,7 +67,6 @@ $(document).ready(function(){
             };
             let total = sizePrice + crustPrice + toppingPrice
             console.log(total)
-            let ovaralTotal = 0
 
             $("#pizzaflavor").html($("#flavor option:selected").val());
             $("#pizzasize").html($("#size option:selected").val());
@@ -75,13 +74,34 @@ $(document).ready(function(){
             $("#pizzatopping").html(ptopping.join(" , "));
             $("#totals").html(total);
 
+            var addOrder = new Pizza(pflavor, psize, pcrust, ptopping, total)
+            var total2 = parseInt(addOrder.total)
+            let ovaralTotal = total + total2
             // add pizzza
             $("button.addPizza").click(function(){
-                var addOrder = new Pizza(pflavor, psize, pcrust, ptopping, total)
                 $("#ordersmade").append("<tr><td> " + addOrder.flavor + "</td><td> " + addOrder.size + "</td><td> " + addOrder.crust + "</td><td> " + addOrder.topping + "</td><td> " + addOrder.total + '</td></tr>');
             });
 
-            
+            // check out
+            $("button.checkout").click(function(){
+                $("button.addPizza").hide();
+                $("button.checkout").hide();
+                $("#overalBill").html("Thank you for ordering. Your total bill is " + ovaralTotal + "." );
+            });
+
+            // delivery
+            $("button.delivery").click(function(){
+                alert("The delivery will be sh 200");
+                // prompt("Please enter address of delivery");
+                let address = prompt("Please enter address of delivery");
+                if (address !== null){
+                    alert("Thank you for odering. You pizza willbe delivered to " + address)
+                }else{
+                    prompt("Ensure you've entered address os delivery!")
+                };
+
+            });
+
         });
     });
 });
