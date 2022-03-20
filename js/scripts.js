@@ -74,6 +74,14 @@ $(document).ready(function(){
             $("#pizzacrust").html($("#crust option:selected").val());
             $("#pizzatopping").html(ptopping.join(" , "));
             $("#totals").html(total);
+
+            // add pizzza
+            $("button.addPizza").click(function(){
+                var addOrder = new Pizza(pflavor, psize, pcrust, ptopping, total)
+                $("#ordersmade").append("<tr><td> " + addOrder.flavor + "</td><td> " + addOrder.size + "</td><td> " + addOrder.crust + "</td><td> " + addOrder.topping + "</td><td> " + addOrder.total + '</td></tr>');
+            });
+
+            
         });
     });
 });
