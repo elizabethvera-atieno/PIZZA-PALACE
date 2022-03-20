@@ -79,14 +79,14 @@ h1 {
   color: whitesmoke;
 }
 .order {
-  background-color:rgb(202, 140, 26);
+  background-color: rgb(202, 140, 26);
 }
 
 #container3 {
   /* background-color: rgb(202, 140, 26); */
   background-image: url("../images/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg");
-  background-repeat:no-repeat ;
-  background-size:cover ;
+  background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
   height: 600px;
   width: 3000px;
@@ -102,52 +102,57 @@ h1 {
 #container3 h3 {
   font-family: fantasy;
   font-weight: bolder;
-  
 }
 
-#container3{
-    font-family: fantasy;
-    font-weight: bolder;
-    /* color: whitesmoke; */
+#container3 {
+  font-family: fantasy;
+  font-weight: bolder;
+  /* color: whitesmoke; */
 }
 
-#form{
-    font-family: fantasy;
-    font-weight: bolder;
-    color: whitesmoke;
+#form {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
 }
 
-.proceed{
+.proceed {
   background-color: chocolate;
   width: 2.5cm;
   height: 0.8cm;
   color: whitesmoke;
 }
 
-.btn{
-    background-color: chocolate;
-    width: 2.5cm;
-    height: 0.8cm;
-    color: rgb(10, 10, 10) 
+.btn {
+  background-color: chocolate;
+  width: 2.5cm;
+  height: 0.8cm;
+  color: rgb(10, 10, 10);
 }
 
-#options{
-    display:none;
+#options {
+  display: none;
 }
 
-.contact{
-    font-family: fantasy;
-    font-weight: bolder;
-    color: whitesmoke;
+.contact {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
 }
 
-.contact h2{
-    font-family: fantasy;
-    font-weight: bolder;
-    color: whitesmoke;
-    text-align: center;
+.contact h2 {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: whitesmoke;
+  text-align: center;
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
+}
+
+nav {
+  background-color: orange;
+  font-family: fantasy;
+  font-weight: bolder;
 }
