@@ -101,7 +101,7 @@
               <h3>ORDER HERE</h3>
               <form id="form">
                 <label for="select">SELECT FLAVOR</label>
-                <select class="browser-default custom-select custom-select-md mb-3 name">
+                <select class="browser-default custom-select custom-select-md mb-3 name" id="flavor">
                   <!-- <option selected value="choose">Choose your flavor</option> -->
                   <option value="Chicken Tikka">Chicken Tikka</option>
                   <option value="PeriPeri Pizza">PeriPeri Pizza</option>
@@ -116,8 +116,8 @@
                 <select name=pizza-size id="size">
                   <option value="0">Select size here</option>
                   <option value="small">Small---sh.600</option>
-                  <option value="saab">Medium---sh.900</option>
-                  <option value="mercedes">Large---sh.1200</option>
+                  <option value="medium">Medium---sh.900</option>
+                  <option value="large">Large---sh.1200</option>
                 </select>
                 <br>
                 <br>
@@ -131,11 +131,11 @@
                 <br>
                 <br>
                 <label for="toppings">SELECT TOPPINGS AT sh.70 EACH</label><br>
-                <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                <input type="checkbox" id="pepperoni" value="pepperoni" name="toppings">
                 <label for="pepperoni"> Pepperoni</label><br>
-                <input type="checkbox" id="mushroom" name="mushroom" value="mushroom">
+                <input type="checkbox" id="mushroom"  value="mushroom" name="toppings">
                 <label for="mushroom"> Mushroom</label><br>
-                <input type="checkbox" id="bacon" name="bacon" value="bacon">
+                <input type="checkbox" id="bacon"  value="bacon" name="toppings">
                 <label for="bacon"> Bacon</label><br> <br>
                 <button type="submit" class="proceed">PROCEED </button>
               </form>
@@ -144,10 +144,10 @@
               <div id="information">
                 <p>Your order will be processed and delivered incase you want it to be delivered.</p>
                 <p>You pay on delivery</p>
-                <p>Incase of any comment of complaint, Please reach out to us as.</p>
+                <p>Incase of any comment of complaint, Please reach out to us .</p>
                 <p id="regards">By Management</p>
               </di>
-              <div class="options">
+              <div id="options">
                 <h2>Your Order is:</h2>
                 <div id="your-orders">
                   <table class="table table-sm  pizzatable">
@@ -162,12 +162,12 @@
                     </thead>
                     <tbody id="ordersmade">
                       <tr>
-                        <td id="pizzaname"></td>
+                        <td id="pizzaflavor"></td>
                         <td id="pizzasize"></td>
                         <td id="pizzacrust"></td>
                         <td id="pizzatopping"></td>
                         <td id="totals"></td>
-                      </tr>                  
+                      </tr>
                     </tbody>
                   </table>
                   <p id="orderTotal"></p>
@@ -176,11 +176,30 @@
                 </div>
                 <button class="btn addPizza">Add Pizza</button>
                 <button class="btn checkout" id="checkout">Checkout</button>
-                <button class="btn deliery">Delivery</button>
+                <button class="btn delivery">Delivery</button>
               </div>   
             </div>
         </div>
       </div>
+    </div>
+    <div class="contact">
+      <div class="container">
+        <br>
+        <br>
+        <h2>CONTACT US</h2>
+        <div class="row">
+          <div class="col-md-6 text-justify" style="text-align: center;">
+            <h3> LOCATION</h3> <br> 
+            <p>Pizza Palace</p> 
+            <p>Green Mall</p> 
+            <p>Homabay Town</p>
+          </div>
+          <div class="col-md-6 text-justify" style="text-align: center;">
+            <h3>CUSTOMER CARE</h3><br>
+            <p>atienolizvera@gmail.com</p>
+            <p>+254796761620</p>
+          </div>
+        </div> 
     </div>
   </body>
 </html>
